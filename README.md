@@ -144,5 +144,3 @@ Dưới đây là ảnh chụp sóng mô phỏng kết quả thực tế khi ch�
 - Email: hoanganhphamcong@gmail.com
 
 ---
-
-> _README này sử dụng hình minh họa kiến trúc, sơ đồ chân và kết quả mô phỏng thực tế do bạn cung cấp._
