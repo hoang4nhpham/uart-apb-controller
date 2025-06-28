@@ -10,7 +10,7 @@ Dự án này hiện thực bộ điều khiển UART với giao tiếp APB, bao
 ```
 UART_APB_controller/
 ├── src/         # Mã nguồn Verilog
-├── test/ hoặc tb/   # Testbenches
+├── tb/          # Testbenches
 ├── doc/         # Tài liệu
 └── README.md    # File mô tả này
 ```
