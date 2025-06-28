@@ -1,0 +1,36 @@
+# Verilog, FPGA, EDA tools, Common OS files
+
+# Mô phỏng
+*.vvp
+*.out
+*.log
+*.vcd
+*.wlf
+*.lxt
+*.fst
+
+# Vivado/Quartus/EDA generated folders
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.webtalk/
+*.temp/
+*.backup/
+
+# Bitstreams
+*.bit
+*.bin
+*.mcs
+*.elf
+
+# VSCode và hệ điều hành
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Tệp tạm/thử nghiệm
+*.tmp
+*.bak
+*.swp
