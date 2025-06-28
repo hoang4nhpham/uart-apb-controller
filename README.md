@@ -132,9 +132,8 @@ Dưới đây là ảnh chụp sóng mô phỏng kết quả thực tế khi ch�
 
 ---
 
-## Tài liệu & liên hệ
+## Liên hệ
 
-- Tài liệu chi tiết: Xem thêm trong thư mục `doc/` (nếu có).
 - Nếu có thắc mắc, góp ý hoặc phát hiện lỗi, hãy tạo [issue](https://github.com/hoang4nhpham/uart-apb-controller/issues) hoặc liên hệ trực tiếp.
 
 ---
