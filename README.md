@@ -122,7 +122,7 @@
 
 Dưới đây là ảnh chụp sóng mô phỏng kết quả thực tế khi chạy testbench với Vivado:
 
-![Kết quả mô phỏng thực tế trên Vivado](image/result.png)
+![Kết quả mô phỏng thực tế trên Vivado](image/results.png)
 
 **Giải thích các tín hiệu nổi bật:**
 - Các tín hiệu điều khiển APB (`psel_tb`, `penable_tb`, `pwrite_tb`, `paddr`, ...) hoạt động đúng trình tự giao tiếp.
