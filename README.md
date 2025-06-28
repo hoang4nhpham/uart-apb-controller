@@ -25,7 +25,7 @@
 
 ## Kiến trúc tổng thể
 
-![Sơ đồ khối tổng thể UART APB Controller](image1)
+![Sơ đồ khối tổng thể UART APB Controller](image/image1.png)
 
 **Mô tả sơ đồ khối:**
 - **APB Slave:** Giao tiếp với bus APB, nhận lệnh đọc/ghi từ CPU/MCU.
@@ -56,7 +56,7 @@
 
 ## Sơ đồ chân kết nối (Pinout & Interface)
 
-![Sơ đồ tín hiệu và chân kết nối UART Controller](image2)
+![Sơ đồ tín hiệu và chân kết nối UART Controller](image/image2.png)
 
 **Mô tả tín hiệu:**
 
@@ -105,7 +105,7 @@
    - Có thể dùng ModelSim, Icarus Verilog, hoặc Vivado Simulator.
 
 2. **Chạy testbench:**
-   - Các testbench mẫu nằm trong thư mục `tb/` hoặc `test/`.
+   - Các testbench mẫu nằm trong thư mục `tb/`.
    - Command mẫu với Icarus Verilog:
      ```sh
      iverilog -o uart_testbench tb/test.v src/*.v
@@ -122,7 +122,7 @@
 
 Dưới đây là ảnh chụp sóng mô phỏng kết quả thực tế khi chạy testbench với Vivado:
 
-![Kết quả mô phỏng thực tế trên Vivado](image3)
+![Kết quả mô phỏng thực tế trên Vivado](image/result.png)
 
 **Giải thích các tín hiệu nổi bật:**
 - Các tín hiệu điều khiển APB (`psel_tb`, `penable_tb`, `pwrite_tb`, `paddr`, ...) hoạt động đúng trình tự giao tiếp.
@@ -140,8 +140,8 @@ Dưới đây là ảnh chụp sóng mô phỏng kết quả thực tế khi ch�
 ---
 
 **Tác giả:**  
-- Hoàng Phạm  
-- Email: (bổ sung nếu muốn)
+- Hoàng Anh Phạm  
+- Email: hoanganhphamcong@gmail.com
 
 ---
 
