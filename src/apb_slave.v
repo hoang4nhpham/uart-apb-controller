@@ -3,6 +3,8 @@
 module apb_slave (
     input wire pclk,
     input wire presetn,
+    input wire psel,      
+    input wire penable,
     input wire pwrite,
     input wire [3:0] paddr,
     input wire [7:0] pwdata,
