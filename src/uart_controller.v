@@ -16,7 +16,7 @@ module uart_controller (
     output wire FULL
 );
 
-    // Tín hi?u trung gian
+    // T n hi?u trung gian
     wire cs, wm;
     wire [3:0] addr;
     wire [7:0] wdata;
@@ -34,6 +34,8 @@ module uart_controller (
     apb_slave apb_inst (
         .pclk(pclk),
         .presetn(presetn),
+        .psel(psel),       
+        .penable(penable), 
         .pwrite(pwrite),
         .paddr(paddr[3:0]),
         .pwdata(pwdata[7:0]),
@@ -99,10 +101,12 @@ module uart_controller (
         .rx_valid(rx_valid)
     );
 
-    // Gán tín hi?u ERROR t? Interrupt Handler ho?c tr?ng thái l?i
-    assign ERROR = intr && (|rx_fifo_data_out[10:8]); // Kích ho?t khi có l?i (bit 10-8)
+    // G n t n hi?u ERROR t? Interrupt Handler ho?c tr?ng th i l?i
+    assign ERROR = intr && (|rx_fifo_data_out[10:8]); // 
+    
+    
 
-    // M? r?ng prdata lên 32-bit
+    // M? r?ng prdata l n 32-bit
     assign prdata = {21'b0, reg_rdata};
 
 endmodule
